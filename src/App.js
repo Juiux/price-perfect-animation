@@ -11,6 +11,7 @@ import "aos/dist/aos.css";
 import Hero from "./components/Hero";
 import Header from "./components/Header";
 import About from "./components/About";
+import Benifit from "./components/Benifit";
 
 const App = () => {
   Aos.init();
@@ -19,6 +20,7 @@ const App = () => {
       <Header />
       <Hero />
       <About />
+      <Benifit />
     </div>
   );
 };
