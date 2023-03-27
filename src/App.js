@@ -15,13 +15,12 @@ import Benifit from "./components/Benifit";
 import Trustedmonial from "./components/Trustedmonial";
 import Cta from "./components/Cta";
 import Features from "./components/Features";
+import Footer from "./components/Footer";
 
 const App = () => {
   Aos.init();
   return (
-    <h1>Hello World</h1>
     <div className="flex flex-col max-w-xl mx-auto w-full items-center overflow-hidden">
-      
       <Header />
       <Hero />
       <About />
@@ -29,6 +28,7 @@ const App = () => {
       <Trustedmonial />
       <Cta />
       <Features />
+      <Footer />
     </div>
   );
 };
